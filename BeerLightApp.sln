@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeerLightApp", "WindowsFormsApplication1\BeerLightApp.csproj", "{EC7B87E4-765C-4454-86C1-39A0FA1CC335}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeerLightApp", "BeerLightApp\BeerLightApp.csproj", "{EC7B87E4-765C-4454-86C1-39A0FA1CC335}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
