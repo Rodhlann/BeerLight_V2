@@ -193,7 +193,7 @@
             }
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_E73E6F9046B94CDB8BA5AFFA849BE8D9"
             {
-            "DefaultLocation" = "8:[ProgramFilesFolder][BeerLightApp]\\[BeerLightApp]"
+            "DefaultLocation" = "8:[ProgramFilesFolder]\\BeerLightApp"
             "Name" = "8:#1925"
             "AlwaysCreate" = "11:TRUE"
             "Condition" = "8:"
@@ -220,7 +220,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:BeerLightAppSetup"
         "ProductCode" = "8:{B9C20F2C-25C4-40C5-8264-997568B6D2B4}"
-        "PackageCode" = "8:{708B6C8A-0BDF-49D0-A191-318585D47E40}"
+        "PackageCode" = "8:{FC37D58D-61B6-4EC7-84BE-BDD491BF874B}"
         "UpgradeCode" = "8:{50B124F1-38DF-4D22-AFAD-6A86390CFD5F}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
