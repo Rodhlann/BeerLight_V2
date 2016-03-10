@@ -25,7 +25,7 @@ namespace BeerLightApp
             }
             catch (Exception e)
             {
-                using (StreamWriter write = File.AppendText("log.txt"))
+                using (StreamWriter write = File.AppendText("BeerLightApp_log.txt"))
                 {
                     if (timeoutCount > 30)
                     {
