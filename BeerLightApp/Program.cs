@@ -41,7 +41,7 @@ namespace BeerLightApp
                 timeoutCount++; 
             }
 
-            if (response == null) { }
+            if (response == null) { beerLightStatus = "none"; }
             else if (response.StatusCode == HttpStatusCode.OK)
             {
                 Stream recieveStream = response.GetResponseStream();
