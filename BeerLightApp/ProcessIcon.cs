@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
-using WindowsFormsApplication1.Properties;
+using BeerLightApp.Properties;
 
 namespace BeerLightApp
 {
