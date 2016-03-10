@@ -18,26 +18,28 @@ namespace BeerLightApp
             String beerLightStatus = "none";
             HttpWebResponse response = null;
 
-            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(urlAddress);
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://localhost:8889");
             try
             {
                 response = (HttpWebResponse)request.GetResponse();
             }
             catch (Exception e)
             {
-                using (StreamWriter write = File.AppendText("BeerLightApp_log.txt"))
-                {
+                //Note: The logger causes the BeerLightAppSetup installer .exe to timeout/crash. 
+                //
+                //using (StreamWriter write = File.AppendText("log.txt"))
+                //{
                     if (timeoutCount > 30)
                     {
-                        Log(e, write, true);
+                        //Log(e, write, true);
                         Application.Exit();
                     }
                     else
                     {
-                        Log(e, write, false);
+                       // Log(e, write, false);
                         beerLightStatus = "none";
                     }
-                }
+                //}
                 timeoutCount++; 
             }
 
