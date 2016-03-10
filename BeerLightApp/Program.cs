@@ -5,6 +5,7 @@ using System.IO;
 using System.Text;
 using System.Timers;
 using Newtonsoft.Json.Linq;
+using BeerLightApp.Properties;
 
 namespace BeerLightApp
 {
@@ -13,12 +14,11 @@ namespace BeerLightApp
         static int timeoutCount = 0; 
         public static String GetBeerLightStatus()
         {
-            String urlAddress = "https://beer30v2.sparcedge.com/beer30.json";
             String data = null;
             String beerLightStatus = "none";
             HttpWebResponse response = null;
 
-            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(urlAddress);
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(Resources.urlAddress);
             try
             {
                 response = (HttpWebResponse)request.GetResponse();

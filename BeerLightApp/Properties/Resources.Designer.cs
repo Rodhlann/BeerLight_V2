@@ -91,6 +91,15 @@ namespace BeerLightApp.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to https://beer30v2.sparcedge.com/beer30.json.
+        /// </summary>
+        internal static string urlAddress {
+            get {
+                return ResourceManager.GetString("urlAddress", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
         internal static System.Drawing.Icon yellow {
