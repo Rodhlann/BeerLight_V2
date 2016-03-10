@@ -2,7 +2,7 @@ BeerLightApp
 
 Info: 
 
-The BeerLightApp will be installed to your [Start -> All Programs -> Startup] folder. The application will be ran at startup. 
+The BeerLightApp will be installed to your [Start -> All Programs -> Startup] folder. The application will run at startup. 
 BeerLightApp will timeout and close after fifteen minutes if it is unable to find a connection to the host. 
 
 To uninstall go to your [Start -> Control Panel -> Programs -> Programs and Features] and uninstall. 
