@@ -18,7 +18,7 @@ namespace BeerLightApp
             String beerLightStatus = "none";
             HttpWebResponse response = null;
 
-            HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://localhost:8889");
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(urlAddress);
             try
             {
                 response = (HttpWebResponse)request.GetResponse();
