@@ -1,5 +1,4 @@
 BeerLightApp
-By: Tim Pepper
 
 Info: 
 
