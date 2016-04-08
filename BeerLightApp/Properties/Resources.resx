@@ -128,7 +128,7 @@
     <value>..\resources\icons\red.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="urlAddress" xml:space="preserve">
-    <value>https://beer30v2.sparcedge.com/beer30.json</value>
+    <value>https://beer30.sparcedge.com/lights/beer30.json</value>
     <comment>May change in future iterations. </comment>
   </data>
   <data name="yellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
